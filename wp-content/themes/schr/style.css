@@ -22,15 +22,15 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td {
-	background: transparent;
-	border: 0;
-	margin: 0;
-	padding: 0;
-	vertical-align: baseline;
+    background: transparent;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
 }
 @font-face {
     font-family: "OpenBaskerville";
-    src: local("☺"), url("openbaskerville-webfont.woff") format("woff"), url("openbaskerville-webfont.ttf") format("truetype"), url("openbaskerville-webfont.svg") format("svg");
+    src: local("☺"), url("openbaskerville-webfont.woff") format("woff"), url("openbaskerville-webfont.ttf") format("truetype"), url("openbaskerville-webfont.svg#openbaskerville-webfont") format("svg");
 }
 body {
     background-image: url("http://authoritism.ericschrijver.nl/grijs_32_16.png");
@@ -77,6 +77,13 @@ h2 {
     line-height: 60px;
     margin-bottom: 20px;
 }
+h3 {
+    color: #584D4D;
+    font-family: OpenBaskerville;
+    font-size: 18px;
+    line-height: 20px;
+    margin-bottom: 20px
+}
 #turnkey-credit {
     display: none;
 }
@@ -85,4 +92,7 @@ ul, dl, iframe, div.entry-utility, div#nav-below {
 }
 li {
     list-style: none outside none;
+}
+ul {
+  margin-left: 8px
 }
