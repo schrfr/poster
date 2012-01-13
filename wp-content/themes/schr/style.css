@@ -1,0 +1,88 @@
+/*
+Theme Name: Twenty Ten
+Theme URI: http://wordpress.org/
+Description: The 2010 theme for WordPress is stylish, customizable, simple, and readable -- make it yours with a custom menu, header image, and background. Twenty Ten supports six widgetized areas (two in the sidebar, four in the footer) and featured images (thumbnails for gallery posts and custom header images for posts and pages). It includes stylesheets for print and the admin Visual Editor, special styles for posts in the "Asides" and "Gallery" categories, and has an optional one-column page template that removes the sidebar.
+Author: the WordPress team
+Version: 1.3
+License: GNU General Public License
+License URI: license.txt
+Tags: black, blue, white, two-columns, fixed-width, custom-header, custom-background, threaded-comments, sticky-post, translation-ready, microformats, rtl-language-support, editor-style, custom-menu
+*/
+
+
+/* =Reset default browser CSS. Based on work by Eric Meyer: http://meyerweb.com/eric/tools/css/reset/index.html
+-------------------------------------------------------------- */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	background: transparent;
+	border: 0;
+	margin: 0;
+	padding: 0;
+	vertical-align: baseline;
+}
+@font-face {
+    font-family: "OpenBaskerville";
+    src: local("☺"), url("openbaskerville-webfont.woff") format("woff"), url("openbaskerville-webfont.ttf") format("truetype"), url("openbaskerville-webfont.svg") format("svg");
+}
+body {
+    background-image: url("http://authoritism.ericschrijver.nl/grijs_32_16.png");
+    margin-top: 65px;
+}
+p {
+    color: #584D4D;
+    font-family: Georgia,serif;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 20px;
+    padding-left: 16px;
+    text-indent: -8px;
+}
+a {
+    color: #000000;
+    text-decoration: underline;
+}
+a:hover {
+    color: #584D4D;
+    text-decoration: underline;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+}
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+    border-bottom: 1px solid #584D4D;
+    text-decoration: none;
+}
+h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover {
+    text-decoration: none;
+}
+h1 {
+    color: black;
+    font-family: OpenBaskerville;
+    font-size: 60px;
+    line-height: 80px;
+    margin-bottom: 20px;
+}
+h2 {
+    color: black;
+    font-family: OpenBaskerville;
+    font-size: 40px;
+    line-height: 60px;
+    margin-bottom: 20px;
+}
+#turnkey-credit {
+    display: none;
+}
+ul, dl, iframe, div.entry-utility, div#nav-below {
+    margin-bottom: 20px;
+}
+li {
+    list-style: none outside none;
+}
