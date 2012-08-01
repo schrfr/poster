@@ -1,5 +1,7 @@
+CC=gcc
+
 poster: poster.c
-	gcc -O -o poster poster.c -lm
+	$(CC) -O -o poster poster.c -lm
 
 # HPUX:	cc -O -Aa -D_POSIX_SOURCE -o poster poster.c -lm
 #       Note that this program might trigger a stupid bug in the HPUX C library,
